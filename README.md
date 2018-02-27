@@ -7,6 +7,12 @@ The theme is based on Vue's theme from [Vue.org](https://github.com/vuejs/vuejs.
 
 Many thanks to the developers (L)
 
+## Generating
+Generating static files with Hexo is quite easy and fast.
+``` bash
+$ hexo generate
+```
+
 ## Developing
 
 ``` bash
