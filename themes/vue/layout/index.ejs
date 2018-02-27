@@ -1,0 +1,66 @@
+<div class="sidebar">
+  <div class="sidebar-inner-index">
+    <ul class="main-menu">
+      <%- partial('partials/main_menu', { context: 'sidebar' }) %>
+    </ul>
+  </div>
+</div>
+
+<div id="hero">
+  <div class="inner">
+    <div class="left">
+      <img class="hero-logo" src="<%- url_for("/images/logo.png") %>">
+    </div><div class="right">
+      <h2 class="haztivity">Haztivity</h2>
+      <h1>
+        The Progressive<br>JavaScript Framework
+      </h1>
+      <p>
+        <%#<a id="modal-player" class="button has-icon" href="javascript:;">%>
+          <%#- partial('icons/play') %>
+          <%#¿Qué aporta Haztivity?</a>%>
+        <a class="button white" href="<%- url_for("/v0.x/guide/") %>">Comenzar</a>
+        <a class="button gray has-icon" href="https://github.com/haztivity/core" target="_blank">
+          <%- partial('icons/github-dark') %>
+          GITHUB</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="highlights">
+  <div class="inner">
+    <div class="point">
+      <h2>Lorem ipsum</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget velit a ipsum imperdiet eleifend facilisis in augue.</p>
+    </div>
+
+    <div class="point">
+      <h2>Lorem ipsum</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget velit a ipsum imperdiet eleifend facilisis in augue.</p>
+    </div>
+
+    <div class="point">
+      <h2>Lorem ipsum</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget velit a ipsum imperdiet eleifend facilisis in augue.</p>
+    </div>
+  </div>
+</div>
+
+
+<div id="footer">
+  <p>
+    <a class="social-icon" href="https://github.com/haztivity/core" target="_blank">
+      <%- partial('icons/github') %>
+    </a>
+    <a class="social-icon" href="https://twitter.com/haztivity" target="_blank">
+      <%- partial('icons/twitter') %>
+    </a>
+  </p>
+  <p>Released under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a><br>
+  Copyright &copy; 2017-<%- new Date().getFullYear() %> Finsi</p>
+</div>
+
+<%#<div id="video-modal" class="modal">
+  <div class="video-space" style="padding: 56.25% 0 0 0; position: relative;"><iframe src="https://player.vimeo.com/video/247494684" style="height: 100%; left: 0; position: absolute; top: 0; width: 100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</div>%>

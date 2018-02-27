@@ -1,0 +1,10 @@
+<li class="nav-dropdown-container learn">
+  <a class="nav-link<%- page.path.match(/\/(guide(?!\/team.html$)|api|style-guide|examples|cookbook)(\/|$)/) ? ' current' : '' %>">Documentación</a><span class="arrow"></span>
+  <ul class="nav-dropdown">
+    <li><ul>
+      <li><a href="<%- url_for("/v0.x/guide/") %>" class="nav-link<%- page.path.match(/\/guide(\/|$)/) ? ' current' : '' %>">Guía</a></li>
+      <li><a href="<%- url_for("/v0.x/api/") %>" class="nav-link<%- page.path.match(/\/api(\/|$)/) ? ' current' : '' %>">API</a></li>
+      <li><a href="<%- url_for("/v0.x/examples/") %>" class="nav-link<%- page.path.match(/\/examples(\/|$)/) ? ' current' : '' %>">Ejemplos</a></li>
+    </ul></li>
+  </ul>
+</li>
