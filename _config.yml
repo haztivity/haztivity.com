@@ -12,7 +12,7 @@ language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://haztivity.com
+url: http://www.haztivity.com
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -137,8 +137,15 @@ offline:
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
-  type: 
-  repository: 
+  type: ftpsync
+  host: 88.87.222.37
+  user: haztivity.com
+  pass: 8l5Q8Nxb
+  remote: /haztivity_com
+  port:
+  ignore:
+  connections: 1
+  verbose: false
 
 feed:
   type: atom
