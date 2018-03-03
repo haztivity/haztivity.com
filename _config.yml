@@ -137,7 +137,7 @@ offline:
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
-  type: ftpsync
+  type: ftp
   host: 88.87.222.37
   user: haztivity.com
   pass: 8l5Q8Nxb
