@@ -56,12 +56,11 @@ con este comando se iniciará [hz-cli](), ejecuta el comando `dev`
 
 y en el navegador abre [localhost:4444/course/sco1000/index.html](localhost:4444/course/sco1000/index.html)
 
-**Nota:** sustituye *sco1000* por el nombre del sco que hayas introducido en el generador
+<p class="tip tip--alert">sustituye <code>sco1000</code> por el nombre del sco que hayas introducido en el generador</p>
 
 Y tienes la base para un curso de Haztivity.
 
-**Nota:** Actualmente nuestro generador genera el curso utilizando SASS, Typescript y Pug, puesto que son las tecnologías que utilizamos internamente, no obstante, tenemos intención de añadir opciones para elegir las tecnologías a utilizar
-
+<p class="tip">Actualmente nuestro generador genera el curso utilizando SASS, Typescript y Pug. En un futuro implementaremos opciones para elegir las tecnologías a utilizar</p>
 
 ## Navegadores
 Actualmente Haztivity está preparado para trabajar en navegadores modernos y ofrece compatibilidad con IE10+.
