@@ -137,6 +137,10 @@
       position: relative
       border-bottom-right-radius: $radius
       border-top-right-radius: $radius
+      &+br
+        display:none
+      &.tip--strip
+        margin:0;
       &:before
         position: absolute
         top: 14px
